@@ -1,0 +1,556 @@
+*{
+    margin: 0%;
+}
+/* box1 */
+.navbar{
+    height: 60px;
+    background-color: #0f1111;
+    border-spacing: border-box;
+    margin: 0%;
+    display: flex;
+    justify-content: space-evenly; 
+}
+.classlogo{
+    height: 50px;
+    width: 113px;
+    background-color: #0f1111;
+    border: 2px solid transparent;
+}
+.logo{
+    margin-top: 1px;
+    height: 50px;
+    width: 100%;
+    background-image:url("/Assets/Images/images.png");
+    background-size: cover;
+    background-position: center;
+}
+
+.logo:hover{
+    border: 1.5px solid white;
+}
+
+/* box 2 */
+#location{
+    height: 50px;
+    /* margin-left: 10px;
+    margin-top: 8px; */
+    border: 1.5px solid transparent;
+    margin-top: 3px;
+   
+}
+#forp{
+    margin-top: 8px;
+    margin-left: 8px;
+    color: white;
+    height: 20px;
+    width: 92px;
+}
+#pakistan{
+    
+    height: 30px;
+    width: 92px;
+    display: flex;
+    color: white;
+}
+#abc{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #cccccc;
+    margin-left: 11px;
+}
+#nn{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 14px;
+    margin-left: 8px;
+}
+#location:hover{
+    border: 2px solid white;
+}
+/* box3 */
+#searchbar{
+    display:flex;
+    width: 590px;
+    height: 60px;
+    border-radius: 10px;
+   
+}
+input{
+    margin-top: 5px;
+    width: 480px;
+    height: 35px;
+}
+#iconse{
+    margin-top: 6px;
+    border-top-right-radius:5px ;
+    border-bottom-right-radius:5px ;
+    background-color: rgba(248, 182, 69, 0.938);
+    width: 55px;
+    height:40px ;
+}
+select{
+    text-align: center;
+    border-top-left-radius:5px ;
+    border-bottom-left-radius:5px ;
+    margin-top: 5px;
+    height: 40px;
+    width: 70px;
+    background-color: rgb(219, 216, 216);
+}
+select option {
+    background-color: #fff; 
+    color: #000;
+    padding: 10px;
+  
+}
+#searchicon{
+    margin-top: 8px;
+    margin-left: 10px;
+    font-size: larger;
+    color: #0f1111;
+    width: 38px;
+}
+/* box 4 */
+#signing{
+    margin-left: 20px;
+   margin-top: 5px;
+    height: 50px;
+    width: 132px;
+    border: 2px solid transparent;
+    
+}
+span{
+    width: 70px;
+    height: 15px;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+  
+    color: white;
+}
+#accounts{
+    height: 20px;
+    width: 150px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+#signing:hover{
+    border: 1.5px solid white;
+}
+/* box 5 */
+/* exactly as box 4 so just gave same id and same properties */
+#returns{
+    margin-left: 20px;
+    margin-top: 5px;
+     height: 50px;
+     width: 100px;
+     border: 2px solid transparent;    
+}
+#returns:hover{
+    border: 1.5px solid white;
+}
+
+/* box 6 */
+#cart{
+    width: 113px;
+    height: 50px;
+    margin-top: 3px;
+    display: flex;
+}
+#ic{
+  
+    width: 50px;
+    height: 40px;
+    color: white;
+    font-size: larger;
+}
+#carticon{
+    margin-left: 10px;
+    margin-top: 15px;
+    font-size: 30px;
+}
+#carttext{
+    font-size: 18px;
+    color: white;
+    margin-top: 25px;
+    margin-left: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+#cart:hover{
+    border: 1.5px solid white;
+}
+/* sec nav bar */
+#secondnav{
+    display: flex;
+    background-color:#2a2d2d;
+    height: 39px;
+    color: white;
+  
+}
+#menuicon{
+    width:58.42px;
+    height: 35px;
+    margin-left: 8px;
+   
+}
+#menuc{
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 4px;
+}
+#Al{
+    font-size: 14px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#menuicon:hover{
+    border: 1.5px solid white;
+}
+/* box 2 */
+#textsecnav{
+    width: 102px;
+    height: 25px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+#anchors{
+    
+    text-decoration: none;
+    font-size: 15px;
+    color: white;
+}
+#textsecnav:hover{
+    border: 1.5px solid white;
+}
+/* box 3 */
+#text2secnav{
+    padding-left: 5px;
+    width: 130px;
+    height: 25px;
+    padding-top: 10px;
+}
+#text2secnav:hover{
+    border: 1.5px solid white;
+}
+/* box4 */
+#text3secnav{
+    padding-left: 5px;
+    width: 69px;
+    height: 25px;
+    padding-top: 10px;
+}
+/*  */
+#text3secnav:hover{
+    border: 1.5px solid white;
+}
+/* box5 */
+#text4secnav{
+    padding-left: 5px;
+    width: 81px;
+    height: 25px;
+    padding-top: 10px;
+}
+#text4secnav:hover{
+    border: 1.5px solid white;
+}
+/* box6 */
+#text5secnav{
+    padding-left: 5px;
+    width: 41px;
+    height: 25px;
+    padding-top: 10px;
+}
+#text5secnav:hover{
+    border: 1.5px solid white;
+}
+/* hero section */
+#herosection{
+    height: 280px;
+    width: 1390px;
+    background-image: url(/Assets/Images/61zAjw4bqPL._SX3000_.jpg);
+    background-size: cover;
+    margin-left:-110px;
+    
+}
+
+
+#shopsec1{
+    margin-top: 0%;
+    height: 420px;
+    width: 100%;
+    background-color:#f5dada;
+    display: flex;
+    justify-content: space-evenly;
+}
+#box1{
+    height: 400px;
+    width: 280px;
+    background-color: white;
+    margin: 15px;
+    /* display: flex; */
+    
+}
+#box2{
+    height: 400px;
+    width: 280px;
+    background-color: white;
+    margin: 15px;
+}
+#box3{
+    height: 400px;
+    width: 280px;
+    background-color: white;
+    margin: 15px;
+}
+#box4{
+    height: 400px;
+    width: 280px;
+    background-color: white;
+    margin: 15px;
+}
+/* within box 1 */
+h1{
+    font-size: 21px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 20px;
+    margin-top: 10px;
+   
+}
+#box1icon1{
+    /* background-color: burlywood; */
+    width: 240px;
+    height: 100px ;
+    padding: 20px;
+}
+#imagep{
+    margin-top: 10px;
+    margin-right: 5px;
+}
+#text{
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    
+}
+#ll{
+    font-size:12px;
+    width: fit-content;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-left: 23px;
+    margin-right: 20px;
+}
+#pp{
+    width: fit-content;
+    font-size:12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    padding-left: 20px;
+   
+}
+#bhaag{
+    text-decoration: none;
+    color: black;
+}
+#detai{
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 3px;
+   padding-left: 18px;
+}
+#deta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    text-decoration: none;
+    color: #007185;
+}
+#imagebox4{
+    margin-left: 25px;
+}
+#deta:hover{
+    color: rgb(196, 72, 72);
+}
+
+
+#shopsec2{
+    margin-top: 0%;
+    height: 420px;
+    width: 100%;
+    background-color:#f5dada;
+    display: flex;
+    justify-content: space-evenly;
+}
+#imageplo{
+    margin-left: 20px;
+}
+#imagepyy{
+    margin-left: 20px;
+}
+#section3{
+    width: 100%;
+    height: 255px;
+    background-color: white;
+    color: black;
+    /* display: flex;    */
+  padding: 20px;
+ margin-bottom: 10px;
+
+}
+#hello{
+   max-width: 200pxpx; 
+   max-height: 25px;
+}
+#i1{
+    width: 100%;
+    height: 200px;
+   
+    display: flex;
+    justify-content: space-evenly;
+}
+#se3b1{
+    padding-top: 10px;
+    width: 147px;
+    height: 200px;
+   
+    padding-left: 30px;
+
+}
+#se3b2{
+    padding-top: 20px;
+    width: 270px;
+    height: 200px;
+    padding-left: 30px;
+} 
+#se3b3{
+    width: 180px;
+    height: 200px;
+  
+}
+#shopingsection2{
+    background-color: rgb(181, 181, 181);
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#se3b4{
+    width: 270px;
+    height: 200px;
+}
+#se3b5{
+    width: 180px;
+    height: 200px;
+    
+}
+
+#se3b6{
+    width: 147px;
+    height: 200px;
+   
+    padding-left: 30px;
+
+}
+#sectfooter{
+    width: 100%;
+    height: 130px;
+    background-color: rebeccapurple;
+
+}
+#siin{
+    height: 80px;
+    width: 300px;
+    margin-left: 500px;
+    margin-top: 30px;
+  
+}
+#pqlo{
+    margin-left: 38px;
+}
+#tosign{
+    margin: 3px;
+    margin-top: 5px;
+    margin-left: 45px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(231, 192, 36);
+    border-radius:10px;
+    border: none;
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#pql{
+    margin-left: 55px;
+}
+
+#tosign:hover{
+    background-color: #007185;
+    color: white;
+}
+#sectfooterpart2{
+    height: 40px;
+    width: 100%;
+    background-color: #373b3b;
+    padding-top: 15px;
+   
+}
+#pol{
+    margin-left: 570px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    
+}
+#sectfooterpart3{
+    height: 600px;
+    width: 100%;
+    background-color: #262929;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 60px;
+}
+#div31{
+    height: 320px;
+    width: 180px;
+   
+}
+#div32{
+    height: 500px;
+    width: 230px;
+ 
+}
+#div33{
+    height: 320px;
+    width: 220px;
+
+}
+#div34{
+    height: 320px;
+    width: 180px;
+
+}
+#plqp{
+    color: white;
+    font-size: 19px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#lastworks{
+    list-style-type: none;
+}
+#iii{
+    
+   
+    margin-bottom: 10px;
+}
+#a{
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+#a:hover{
+    text-decoration: underline;
+}
